@@ -1,0 +1,9 @@
+# DeepSeek 余额监控 —— 依赖清单（Python 3.10+）
+PySide6>=6.5
+requests>=2.28
+
+# 可选：把记录存到 MySQL 时安装（不安装则自动使用本地 SQLite）
+# pymysql>=1.1
+
+# 可选：更快的右下角通知后端（不安装则使用内置 PowerShell WinRT 渠道）
+# winotify>=1.1

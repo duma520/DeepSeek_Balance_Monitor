@@ -1,0 +1,35 @@
+.env
+.env.local
+.env.bak
+*.env.tmp
+
+# ---- 程序运行时生成 ----
+data/
+logs/
+_scaffold/_smoke_out.txt
+_scaffold/_launch_out.txt
+_scaffold/_shot.png
+_scaffold/_symbols.txt
+_scaffold/icon_preview.png
+_scaffold/tmp/
+
+# ---- 编译产物 ----
+build_output/
+*.dist/
+*.build/
+*.onefile-build/
+*.pyd
+*.so
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
