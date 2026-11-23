@@ -1,11 +1,8 @@
 # DeepSeek_Balance_Monitor v1.5.0
 
-> **一句话**：DeepSeek_Balance_Monitor —— 一个用 Python 写的 Windows 桌面程序，
+> **一句话**：DeepSeek 余额监视器：定时查询账户余额，余额变化时弹窗或托盘通知，记录写入 SQLite 并支持导出 CSV；Key 从 .env 读取不外泄。几个项目一起烧额度时，用它盯住哪天会突然没钱。
+>
 > 主程序为 `DeepSeek_Balance_Monitor.py`，界面技术栈 PySide6（Qt6 官方 Python 绑定）。
->
-> **适合谁**：想直接用现成工具、不想自己写代码的 Windows 用户。
->
-> **解决什么问题**：把这件事做成开箱即用的程序 —— 下载解压、装上依赖、双击就能跑。
 
 ---
 
